@@ -1,0 +1,47 @@
+/* Create Task Page Styling */
+.create-task-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.create-task-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+.create-task-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-task-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.create-task-container button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.create-task-container button:hover {
+    background-color: #0056b3;
+}

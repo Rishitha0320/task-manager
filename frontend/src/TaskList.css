@@ -1,0 +1,189 @@
+/*Task List Page Styling
+.task-list-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Heading */
+/* h2 {
+    color: #333;
+} */
+
+/* Create Task Button */
+/* .create-task {
+    display: block;
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.create-task:hover {
+    background-color: #0056b3;
+}
+
+/* Task List */
+/* .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} */
+
+/* Task Item */
+/* .task-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+} */
+
+/* .task-item h3 {
+    margin-bottom: 5px;
+    color: #222;
+} */
+
+/* .task-item p {
+    color: #555;
+    margin-bottom: 10px;
+} */
+
+/* Edit and Delete Buttons */
+/* .task-actions {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .edit-btn, .delete-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+} */
+
+/* .edit-btn {
+    background-color: #28a745;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+} */ 
+/* Task List Page Styling */
+.task-list-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F4F4F9; /* Light Gray */
+}
+
+/* Heading */
+h2 {
+    color: #333333; /* Dark Gray */
+}
+
+/* Create Task Button */
+.create-task {
+    display: block;
+    width: 100%;
+    background-color: #4169E1; /* Royal Blue */
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.create-task:hover {
+    background-color: #2C4DAA; /* Deep Blue */
+}
+
+/* Task List */
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Task Item */
+.task-item {
+    background: #FFFFFF; /* White */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.task-item h3 {
+    margin-bottom: 5px;
+    color: #222222;
+}
+
+.task-item p {
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+/* Edit and Delete Buttons */
+.task-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-btn, .delete-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+}
+
+/* Edit Button */
+.edit-btn {
+    background-color: #34D399; /* Emerald Green */
+}
+
+.edit-btn:hover {
+    background-color: #059669; /* Dark Green */
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #F87171; /* Vibrant Red */
+}
+
+.delete-btn:hover {
+    background-color: #DC2626; /* Dark Red */
+}
